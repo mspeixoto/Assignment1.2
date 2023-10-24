@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- 	-------- TO-DO: ADD META TAG AND NAME HERE -------- -->
+		<title>Form Activity Solution File</title>
+        <meta name="author" content="Mandy Sue Peixoto">
+		<!-- 	-------- TO-DO: ADD LINK TO CSS HERE -------- -->
+        <link rel="stylesheet" type="text/css" href="styles.css.txt">
+	</head>
+
+	<body>
+		<a href="#main-content" id="skipLink">Skip to main content</a>
+
+		<header>
+			<h1>Form Activity - GIT414</h1>
+			<nav>
+				<h2 class="sr-only">Site Navigation</h2>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="particleBackground"></div>
+		<main id="main-content">
+			<article>
+				<h2>Coding Semantic and Accessible Forms!</h2>
+				<p>Today we'll be focusing on coding a form that is accessible and semantic, and we'll also briefly discuss skip
+					links for your website. Forms can be a source of frustration for users, whether they specifically need help with
+					accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code
+					this in class, and please ask questions as they arise. Let's make a form!</p>
+
+				<!-- 	-------- TO-DO: ADD FORM HERE -------- -->
+                <form>
+					 <div>
+						<label for="name">Full Name</label><br>
+						<input type="text" id="name" name="name"><br>
+					</div>
+					<div>	
+						<label for="email">Email</label><br>
+						<input type="text" id="email" name="email"><br>
+					</div>
+					<div>
+						<label for="tel">Phone</label><br>
+						<input type="text" id="tel" name="tel"><br>
+					</div>
+					<div>
+						<label>Preferred Contact:</label><br>
+					</div>
+					<div>
+						<lable for="phone">Phone</lable>
+						<input type="radio" id="phone" name="contact" value="phone">
+					</div>
+					<div>	
+						<lable for="email">Email</lable>
+						<input type="radio" id="Email" name="contact" value="email">
+					</div>
+					<div>
+						<lable for="residence">Residence</lable>
+						<select id="residence" name="residence">
+							<option value="Alabmam">AL</option>
+							<option value="Alaska">AK</option>
+							<option value="Arizona">AZ</option>
+							<option value="Arkansas">AR</option>
+							<option value="California">CA</option>
+							<option value="Colorado">CO</option>
+							<option value="Connecticut">CT</option>
+							<option value="Delaware">DE</option>
+							<option value="Florida">FL</option>
+							<option value="Georgia">GA</option>
+							<option value="Hawaii">HI</option>
+							<option value="Idaho">ID</option>
+							<option value="Illinois">IL</option>
+							<option value="Indiana">IN</option>
+							<option value="Iowa">IA</option>
+							<option value="Kansas">KS</option>
+							<option value="Kentucky">KY</option>
+							<option value="Louisiana">LA</option>
+							<option value="Maine">ME</option>
+							<option value="Maryland">MD</option>
+							<option value="Massachusetts">MA</option>
+							<option value="Michigan">MI</option>
+							<option value="Minnesota">MN</option>
+							<option value="Mississippi">MS</option>
+							<option value="Missouri">MO</option>
+							<option value="Montana">MT</option>
+							<option value="Nebraska">NE</option>
+							<option value="Nevada">NV</option>
+							<option value="New Hampshire">NH</option>
+							<option value="New Jersey">NJ</option>
+							<option value="New Mexico">NM</option>
+							<option value="New York">NY</option>
+							<option value="North Carolina">NC</option>
+							<option value="North Dakota">ND</option>
+							<option value="Ohio">OH</option>
+							<option value="Oklahoma">OK</option>
+							<option value="Oregon">OR</option>
+							<option value="Pennsylvania">PA</option>
+							<option value="Rhode Island">RI</option>
+							<option value="South Carolina">SC</option>
+							<option value="South Dakota">SD</option>
+							<option value="Tennessee">TN</option>
+							<option value="Texas">TX</option>
+							<option value="Utah">UT</option>
+							<option value="Vermont">VT</option>
+							<option value="Virginia">VA</option>
+							<option value="Washington">WA</option>
+							<option value="West Virginia">WV</option>
+							<option value="Wisconsin">WI</option>
+							<option value="Wyoming">WY</option>
+						</select>
+					</div>  
+					<div>	
+						<label>Comments</label><br>
+						<textarea></textarea><br>
+					</div>	
+					<div>
+						<input type="submit" id="submit" name="submit" method="POST">
+
+					</div>	
+                </form>
+
+				
+			</article>
+		</main>
+		<footer>
+			<p>Copyright &copy; 2021 - GIT414</p>
+		</footer>
+	</body>
+</html>
